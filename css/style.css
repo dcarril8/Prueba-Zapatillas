@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto", arial;
+}
+.img-main {
+  width: 100%;
+  border-radius: 10px;
+}
+.main {
+  flex-direction: column;
+  justify-content: center;
+}
+.box img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+.extra {
+  width: 100%;
+}
+
+.sale,
+.price {
+  color: white;
+  border-radius: 20px;
+  padding: 7px;
+  position: absolute;
+  margin-top: 20px;
+}
+.sale {
+  background-color: red;
+  left: 20px;
+}
+.price {
+  background-color: black;
+  right: 20px;
+}
+
+.img-bot {
+  object-fit: cover;
+  height: 30svh;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.intro {
+  color: white;
+  text-align: center;
+}
+
+.intro p,
+.intro h2 {
+  margin: 0%;
+}
+.descripcion {
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+}
+
+.pie-pag {
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+.box {
+  position: relative;
+  padding: 0%;
+}
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  padding: 30px;
+}
